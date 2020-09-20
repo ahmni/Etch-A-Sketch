@@ -3,3 +3,38 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+#container {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 15%;
+    max-width: 576px;
+    flex-wrap: wrap; 
+    align-content: center;
+    flex-basis: auto;
+}
+
+#box {
+    width: 9px;
+    height: 9px;
+    border: 1px solid grey;
+}
+
+.red {
+    background-color: rgb(179, 40, 15);
+}
+
+.btn {
+    margin-left: 48%;
+    height: 2rem;
+    width: 4rem;
+    background-color: black;
+    color: white;
+    border-color: grey;
+}
+
+#yeet {
+    border: 1px solid grey;
+    width: 9px;
+    height: 9px;
+}
